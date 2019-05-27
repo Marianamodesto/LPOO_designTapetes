@@ -11,7 +11,7 @@ O seu portfóliode produtos é formado por tapetes em forma de: Círculos, Retâ
 Os tapetes são vendidos em três materiais diferentes: Comum, Luxo e Premium.
 A empresa deseja informatizar a venda e o cadastro de clientes. 
 Para isso contratou você para implementar um sistema que possua:
- 1. Uma tela para cadastro de clientes (Nome, SobreNome e CPF) 
+ 1. Uma tela para cadastro de clientes (Nome, SobreNome e CPF)
     - Nesta tela deve ser possível listar todos os clientes (Use AbstractTableModel)
     - Nesta tela deve ser possível atualizar os dados de um cliente existente;
     - Nesta  tela  deve  ser  possível  excluir  um  cliente  (tomar  cuidado  para  excluir também os produtos que ele possui)

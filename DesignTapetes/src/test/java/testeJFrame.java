@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main.java.com.deisgn_tapetes;
+package test.java;
 
 /**
  *
@@ -15,9 +15,9 @@ public class testeJFrame extends javax.swing.JFrame {
      * Creates new form testeJFrame
      */
     public testeJFrame() {
-        initComponents();
-    }
-
+        initComponents();        
+    }    
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -33,7 +33,7 @@ public class testeJFrame extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(0, 0, 0));
+        setBackground(new java.awt.Color(0, 255, 102));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         mainTitulo.setFont(new java.awt.Font("Aharoni", 1, 36)); // NOI18N
@@ -41,11 +41,11 @@ public class testeJFrame extends javax.swing.JFrame {
         mainTitulo.setText("Design Tapetes");
         mainTitulo.setAlignmentY(0.0F);
 
-        jButton1.setBackground(new java.awt.Color(140, 49, 28));
+        jButton1.setBackground(new java.awt.Color(102, 102, 102));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Clientes");
 
-        jButton2.setBackground(new java.awt.Color(217, 80, 67));
+        jButton2.setBackground(new java.awt.Color(153, 153, 153));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("jButton2");
 
@@ -87,7 +87,7 @@ public class testeJFrame extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
+    public static void main(String args[]) {        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
